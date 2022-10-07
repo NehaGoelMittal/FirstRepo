@@ -16,11 +16,12 @@ public class childFirefox extends FirefoxDriver
 		System.out.println("Screenshot taken in childfirefox");
 	}*/
 	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		test123();
 		// captureScreenShot(); // possible
-		
+		System.out.println("testing");
 		webDriver w = new childFirefox();
 		w.click(); //webDriver class
 		w.captureScreenShot();
