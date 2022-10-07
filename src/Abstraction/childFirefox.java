@@ -21,7 +21,7 @@ public class childFirefox extends FirefoxDriver
 		// TODO Auto-generated method stub
 		test123();
 		// captureScreenShot(); // possible
-		System.out.println("testing");
+		
 		webDriver w = new childFirefox();
 		w.click(); //webDriver class
 		w.captureScreenShot();
